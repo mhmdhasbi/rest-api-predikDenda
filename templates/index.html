@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediksi Denda Tilang</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Prediksi Denda Tilang</h1>
+        <form method="POST">
+            <label for="jenis_kendaraan">Jenis Kendaraan :</label>
+            <select id="jenis_kendaraan" name="Jenis Kendaraan Code" required>
+                <option value="" disabled selected>Pilih jenis kendaraan</option>
+                <option value="0">Bus</option>
+                <option value="1">Mobil Barang/Pick Up</option>
+                <option value="2">Mobil Penumpang Pribadi</option>
+                <option value="3">Mobil Penumpang Umum</option>
+                <option value="4">Sepeda Motor</option>
+                <option value="5">Tronton</option>
+                <option value="6">Truk</option>
+                <option value="7">Truk Gandeng</option>
+            </select>
+
+            <label for="pasal">Pasal :</label>
+            <input type="text" id="pasal" name="Pasal" placeholder="Masukkan Pasal" required>
+
+            <label for="usia">Usia :</label>
+            <input type="text" id="usia" name="Usia" placeholder="Masukkan usia" required>
+
+            <label for="hakim">Hakim :</label>
+            <select id="hakim" name="Hakim Code" required>
+                <option value="" disabled selected>Pilih hakim</option>
+                <option value="0">Achmad Ukayat, S.H.,M.H.</option>
+                <option value="1">Adil Hakim, S.H.,M.H.</option>
+                <option value="2">Adrianus Agung Putrantono,S.H.</option>
+                <option value="3">Agam Syarief Baharudin, S.H.,M.H.</option>
+                <option value="4">Ambo Masse, S.H.,M.H.</option>
+                <option value="5">Andi Eddy Viyata, S.H.,M.H.</option>
+                <option value="6">Asep Sumirat Danaatmaja,S.H.,M.H.</option>
+                <option value="7">Asmudi, S.H.,M.H.</option>
+                <option value="8">Astea Bidarsari, S.H.,M.H.</option>
+                <option value="9">Bambang Ariyanto, S.H.,M.H.</option>
+                <option value="10">Catur Prasetyo, S.H.,M.H.</option>
+                <option value="11">Dame Parulian Pandiangan, S.H.</option>
+                <option value="12">Daru Swastika Rini, S.H.</option>
+                <option value="13">Dinahayati Syofyan, S.H., M.H.</option>
+                <option value="14">Dr. Abdul Aziz, S.H., M.Hum.</option>
+                <option value="15">Dwi Sugianto, S.H., M.H.</option>
+                <option value="16">Eka Ratnawidiastuti, S.H., M.Hum.</option>
+                <option value="17">Erven Langgeng Kaseh, S.H., M.H.</option>
+                <option value="18">Eryusman, S.H.</option>
+                <option value="19">Fauziah Hanum Harahap, S.H.,Mh.</option>
+                <option value="20">Fauziah Hanum, S.H.,M.H.</option>
+                <option value="21">Firlana Trisnila, S.H.</option>
+                <option value="22">Firza Andriansyah, S.H. M.H.</option>
+                <option value="23">Heny Faridha, S.H., M.H.</option>
+                <option value="24">Heru Dinarto, S.H., M.H.</option>
+                <option value="25">Idi Il Amin, S.H.,M.H.</option>
+                <option value="26">Ika Lusiana Riyanti, S.H.</option>
+                <option value="27">Ikhwan Hendrato, S.H., M.H.</option>
+                <option value="28">Itong Isnaeni Hidayat, S.H., M.H.</option>
+                <option value="29">Jasael, S.H., M.H.</option>
+                <option value="30">Joko Dwi Atmoko, S.H.,M.H.</option>
+                <option value="31">Kukuh Kalinggo Yuwono, S.H., M.H.</option>
+                <option value="32">Kusman, S.H., M.H.</option>
+                <option value="33">Maju Purba, S.H.</option>
+                <option value="34">Muhamad Martin Helmy, S.H., M.H.</option>
+                <option value="35">Nendi Rusnendi, S.H.</option>
+                <option value="36">Nenny Ekawaty Barus, S.H.,M.H.</option>
+                <option value="37">Novie Ermawati, S.H.</option>
+                <option value="38">Nurhayati Nasution, S.H., M.H.</option>
+                <option value="39">Ojo Sumarna, S.H., M.H.</option>
+                <option value="40">Oktafiatri Kusumaningsih, S.H., M.Hum.</option>
+                <option value="41">Panji Surono, S.H., M.H.</option>
+                <option value="42">Raden Zaenal Arief, S.H., M.H.</option>
+                <option value="43">Renaldo Meiji Hasoloan Tobing, S.H., m.H.</option>
+                <option value="44">Ristati, S.H., M.H.</option>
+                <option value="45">Riyanti Desiwati, S.H., M.H.</option>
+                <option value="46">Rudita Setya Hermawan, S.H., M.H.</option>
+                <option value="47">Saputro Handoyo, S.H., M.H.</option>
+                <option value="48">Saut Erwin Hartono A. Munthe, S.H., M.H.</option>
+                <option value="49">Sigit Pradewa, S.H., M.H.</option>
+                <option value="50">Siswatmono Radiantoro, S.H.</option>
+                <option value="51">Siti Hamidah, S.H., M.H.</option>
+                <option value="52">Sri Asmarani, S.H., C.N.</option>
+                <option value="53">Susilo Utomo, S.H.</option>
+                <option value="54">Suwandi, S.H., M.H.</option>
+                <option value="55">Syihabuddin, S.H., M.H.</option>
+                <option value="56">Tarima Saragih, S.H.. M.Hum.</option>
+                <option value="57">Teguh Arifiano, S.H., M.H.</option>
+                <option value="58">Titi Maria Romlah, S.H.</option>
+                <option value="59">Tohari Tapsirin, Bc.Ip. S.H., M.H.</option>
+                <option value="60">Ujang Irfan Hadiana, S.H.</option>
+                <option value="61">Unggul Ahmadi, S.H., M.H.</option>
+                <option value="62">Vici Daniel Valentino, S.H., M.H.</option>
+                <option value="63">Wiyono, S.H.</option>
+                <option value="64">Yose Ana Roslinda S.H., M.H.</option>
+                <option value="65">Yusuf Syamsuddin, S.H., M.H.</option>
+            </select>
+            <button type="submit">Prediksi</button>
+        </form>
+
+
+        <!-- Tampilkan pesan error jika input tidak valid -->
+        {% if error_message %}
+        <div class="error">
+            <p style="color: red;">{{ error_message }}</p>
+        </div>
+        {% endif %}
+
+        <!-- Tampilkan hasil hanya jika ada nilai -->
+        {% if hasil is not none %}
+        <div class="result">
+            <h2>Hasil:</h2>
+            <p>Jenis Kendaraan: {{ jenis_kendaraan_label }}</p>
+            <p>Pasal          : {{ pasal }}</p>
+            <p>Usia           : {{ usia }}</p>
+            <p>Hakim          : {{ hakim_label }}</p>
+            <p>Prediksi Denda : {{ hasil }}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
